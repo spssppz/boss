@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html amp lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Cryptoboss Сasino </title>
+	<link rel="shortcut icon" href="favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+	<style amp-boilerplate>
+		body {
+			-webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			-moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			-ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+			animation: -amp-start 8s steps(1, end) 0s 1 normal both
+		}
+
+		@-webkit-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@-moz-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@-ms-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@-o-keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+
+		@keyframes -amp-start {
+			from {
+				visibility: hidden
+			}
+
+			to {
+				visibility: visible
+			}
+		}
+	</style><noscript>
+		<style amp-boilerplate>
+			body {
+				-webkit-animation: none;
+				-moz-animation: none;
+				-ms-animation: none;
+				animation: none
+			}
+		</style>
+	</noscript>
+	<link rel="canonical" href="index.html">
+	<style amp-custom>
+		header {
+			height: 97px;
+			background-color: #100733;
+			display: flex;
+			border-bottom: 1px solid #626262;
+		}
+
+
+		body {
+			margin: 0px;
+			font-family: 'Montserrat', arial;
+			font-weight: normal;
+			background: #100733;
+		}
+
+		.container {
+			width: 1300px;
+			margin: auto;
+		}
+
+
+
+		.osn .container {
+			display: flex;
+			justify-content: space-between;
+
+		}
+
+		header .container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.regis {
+			color: #FBFAF4;
+			width: 129px;
+			margin-left: 20px;
+			height: 48px;
+			border: 1px solid #3A1CB0;
+			transition: .3s;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: Pointer;
+			border-radius: 5px;
+		}
+
+		.regis3:hover {
+			transform: scale(1.05);
+		}
+
+
+		.main-left {
+			width: 100%;
+		}
+
+
+
+
+
+		.regis2:hover {
+			transform: scale(1.05);
+		}
+
+		footer {
+			background: #000000;
+			margin-top: 40px;
+			height: 100px;
+			display: flex;
+			border-top: 2px solid #f76329;
+		}
+
+		h1 {
+			font-size: 30px;
+			color: #FAF9E3;
+			font-weight: bold;
+			margin-top: 40px;
+		}
+
+		h2,
+		h3,
+		h4,
+		h5,
+		strong {
+			font-weight: bold;
+			color: #FAF9E3;
+			font-size: 24px;
+		}
+
+		.men1 img {
+			width: 150px;
+		}
+
+		.slots-new0 {
+			width: 159px;
+			height: 48px;
+			color: #87CEFA;
+			border: 1px solid #87CEFA;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 5px;
+			transition: .3s;
+			margin: auto;
+			margin-top: 40px;
+			margin-bottom: 20px;
+		}
+
+		.slots-new {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.slots-new1 {
+			width: 25%;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 10vw;
+			position: relative;
+		}
+
+		.slots-new1:hover div {
+
+			opacity: .7;
+
+		}
+
+		.slots-new1 div {
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			background: #111;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+		}
+
+		.slots-new1:before {
+			content: url(content/img/ff.png);
+			position: absolute;
+			opacity: 0;
+			pointer-events: none;
+			top: 0px;
+			z-index: 333;
+
+		}
+
+		.slots-new1:hover:before {
+			opacity: 1;
+		}
+
+		.slots-new1 img {
+			width: 100%;
+		}
+
+
+		.vul2 {
+
+			display: flex;
+			color: #fff;
+			align-items: center;
+			justify-content: space-between;
+			width: 60%;
+
+		}
+
+		.vul2 a {
+			color: #FBFAF4;
+			transition: .3s;
+		}
+
+		.vul2 a:hover {
+			color: #e51c32;
+		}
+
+		p,
+		li {
+			line-height: 1.7;
+			color: #E5E5E5;
+		}
+
+		footer .container {
+			color: #fff;
+			flex-direction: column;
+			display: flex;
+			align-items: baseline;
+		}
+
+		.slots-new0:hover {
+			color: #fff;
+			background: #87CEFA;
+		}
+
+		footer img {
+			margin-top: 10px;
+		}
+
+		@media screen and (max-width: 1350px) and (min-width: 1000px) {
+
+			.vul2 a {
+
+				font-size: 10px;
+			}
+
+			.vul2 {
+				width: 50%;
+			}
+
+			.container {
+				width: 1000px;
+			}
+
+
+
+		}
+
+		@media screen and (max-width: 1000px) {
+
+
+			h1 {
+				margin-top: 20px;
+			}
+
+			.main-right {
+				display: none;
+			}
+
+			.main-left {
+				width: 100%;
+			}
+
+			.vul2 {
+				display: flex;
+				color: #fff;
+				align-items: center;
+				justify-content: space-between;
+				width: 60%;
+				order: 3;
+				width: auto;
+
+				overflow: scroll;
+				margin: 20px 0px;
+			}
+
+			.vul2 a {
+				color: #000000;
+				transition: .3s;
+				margin: 0px 7px;
+			}
+
+			header {
+				padding-top: 20px;
+				height: auto;
+			}
+
+
+			.slots-new1:before {
+				content: ' ';
+				background-image: url(content/img/ff.png);
+				position: absolute;
+				opacity: 0;
+				z-index: 333;
+				width: 100px;
+				height: 100px;
+				top: 0vw;
+				background-size: 100% 100%;
+			}
+
+			header .container img {
+				width: 30vw;
+			}
+
+			.regis2 {
+				width: 30vw;
+			}
+
+			.regis3 {
+				width: 18vw;
+			}
+
+			body,
+			html {
+				overflow-x: hidden;
+			}
+
+			.container {
+				width: 90vw;
+			}
+
+			footer img {
+				margin-top: 10px;
+				max-width: 100%;
+			}
+
+			.slots-new1 {
+				width: 50%;
+				position: relative;
+				margin-bottom: -5px;
+				display: flex;
+				overflow: hidden;
+				height: 30vw;
+			}
+
+			header .container {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+
+			.slots-new0 {
+				margin-top: 20px;
+			}
+
+
+			.pdd {
+				width: 150%;
+				max-width: 150%;
+				margin-left: -25%;
+			}
+
+		}
+
+
+		a {
+			text-decoration: none
+		}
+
+
+		.slots-new .slots-new1:nth-child(1) {
+			background: url(content/img/game1.jpg) no-repeat;
+			background-size: 100% 100%;
+			background-position: center top;
+		}
+
+		.slots-new .slots-new1:nth-child(2) {
+			background: url(content/img/game2.jpg) no-repeat;
+			background-size: 100% 100%;
+			background-position: center top;
+		}
+
+		.slots-new .slots-new1:nth-child(3) {
+			background: url(content/img/game3.jpg) no-repeat;
+			background-size: 100% 100%;
+			background-position: center top;
+		}
+
+		.slots-new .slots-new1:nth-child(4) {
+			background: url(content/img/game8.png) no-repeat;
+			background-size: 100% 100%;
+			background-position: center top;
+		}
+
+		.slots-new .slots-new1:nth-child(5) {
+			background: url(content/img/game5.jpg) no-repeat;
+			background-size: 100% 100%;
+			background-position: center top;
+		}
+
+		.slots-new .slots-new1:nth-child(6) {
+			background: url(content/img/game6.jpg) no-repeat;
+			background-size: 100% 100%;
+			background-position: center top;
+		}
+
+		.slots-new .slots-new1:nth-child(7) {
+			background: url(content/img/game7.jpg) no-repeat;
+			background-size: 100% 100%;
+			background-position: center top;
+		}
+
+		.slots-new .slots-new1:nth-child(8) {
+			background: url(content/img/game4.jpg) no-repeat;
+			background-size: 100% 100%;
+			background-position: center top;
+		}
+
+		.vul2 a:first-child {
+			display: none;
+		}
+
+		.faq__label {
+			font-size: 18px;
+		}
+	</style>
+</head>
+
+<body
+	class="home page-template page-template-main page-template-main-php page page-id-114 wp-embed-responsive singular image-filters-enabled">
+	<header>
+		<div class="container">
+			<div class="men1">
+				<a href=""><img src="content/img/logo.jpg" /></a>
+			</div>
+
+			<div class="vul2">
+				<a href="">
+					<div>Главная</div>
+				</a>
+			</div>
+
+			<div style="display: flex;">
+				<a class="href" href="">
+					<div style="background:#100733" class="regis regis3">Вход</div>
+				</a>
+				<a class="href" href="">
+					<div style="background:#3064D5" class="regis regis2">Регистрация</div>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="main">
+		<img class="pdd" style="width:100%" src="content/img/cryptoboss-casino-freespins.jpg" />
+
+		<div class="osn">
+			<div class="container">
+				<div class="main-left">
+					<div class="main1">
+						<h1 style="margin:0px;font-size:inherit">Казино Крипто Босс: игровые автоматы и зеркало</h1>
+					</div>
+					<p>
+						Cryptoboss Casino функционирует с 2023 года. Среди многообразия различных интернет-площадок, предлагающих
+						играть в игровые автоматы, казино Крипто босс отличается от своих конкурентов. Удобный интерфейс, лицензия
+						на осуществление деятельности, честные и щедрые бонусы. Казино популярно среди жителей стран стран СНГ и
+						России.
+					</p>
+
+					<div class="slots-new">
+						<div class="slots-new1">
+							<a class="href" href="">
+								<div></div>
+							</a>
+						</div>
+						<div class="slots-new1">
+							<a class="href" href="">
+								<div></div>
+							</a>
+						</div>
+						<div class="slots-new1">
+							<a class="href" href="">
+								<div></div>
+							</a>
+						</div>
+						<div class="slots-new1">
+							<a class="href" href="">
+								<div></div>
+							</a>
+						</div>
+
+						<div class="slots-new1">
+							<a class="href" href="">
+								<div></div>
+							</a>
+						</div>
+						<div class="slots-new1">
+							<a class="href" href="">
+								<div></div>
+							</a>
+						</div>
+						<div class="slots-new1">
+							<a class="href" href="">
+								<div></div>
+							</a>
+						</div>
+						<div class="slots-new1">
+							<a class="href" href="">
+								<div></div>
+							</a>
+						</div>
+					</div>
+
+					<p>
+						Элитное казино заведение предлагает приятно провести время за игрой и получить реальный выигрыш. Казино
+						Криптобосс привлекает внимание качественным оформлением портала, уникальностью игр и сопровождаемой
+						мелодией. Разработчики проекта устранили многие недочеты. В случае сбоев работы сайта любой игрок может
+						войти в рабочее зеркало и продолжить игру.
+					</p>
+
+					<h2><strong>Бонусы в казино Cryptoboss</strong></h2>
+
+					<p>Казино Cryptoboss предлагает воспользоваться бонусами:</p>
+
+					<ul>
+						<li>Бонус 100% на первый депозит – своего рода гарантия, что клиент получит ту сумму, которую он изначально
+							внес на депозит.</li>
+
+						<li>Бонус за еженедельное пополнение депозита возвращает до 15% денежных средств от ранее внесенной суммы.
+						</li>
+
+						<li>VIP-бонус в Crypto Boss Casino. Позволяет VIP-игрокам увеличить имеющийся баланс на 275%.</li>
+						<li>Если у вас имеется промокод - его также можно использовать для получения бонуса.</li>
+					</ul>
+
+					<h2><strong>Cryptoboss - игровые автоматы и игры на припту</strong></h2>
+
+					<p>На платформе онлайн-казино Cryptoboss Casino большое разнообразие игр различных жанров, много новинок и
+						трендов. Также казино стало отличной площадкой для развлечений с игровыми автоматами.</p>
+
+					<p>
+						Сотрудничество Крипто босс с различными Интернет-провайдерами, такими как NetEnt, Microgaming, BetSoft,
+						Amatic, Ainsworth, Endorphina и многими другими позволяет проводить время за игрой в рулетку, почувствовать
+						себя в роли дилера и проверить интуицию.
+					</p>
+
+					<h2><strong>Депозиты и вывод средств</strong></h2>
+
+					<p>
+						Валютные счета доступные в Cryptoboss casino - рубли, доллары, евро и крипто. Изменение вида валюты
+						осуществляется в личном кабинете, при выборе раздела «Финансы». В казино установили минимальные суммы
+						депозитов
+						- 10 евро, 10 долларов, 500 рублей.
+					</p>
+
+					<p>VIP-игроки в общем итоге могут вывести сумму в размере 300 000 евро в сутки. Выплата осуществляется в
+						течение суток.</p>
+
+					<h2><strong>Поддержка</strong></h2>
+
+					<p>На все вопросы, касающиеся игр в Cryptoboss, круглосуточно, 7 дней в неделю отвечают сотрудники казино. Для
+						этого достаточно уметь пользоваться телефоном, e-mail или написать в чат поддержки.</p>
+					<div class="faq" itemscope itemtype="http://schema.org/FAQPage">
+						<h2>FAQ</h2>
+						<div class="faq__item" itemprop="mainEntity" itemscope itemtype="http://schema.org/Question">
+							<h3 class="faq__label" itemprop="name">Что такое Криптобосс казино?
+							</h3>
+							<div class="faq__body" itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer">
+								<p itemprop="text">Криптобосс - это онлайн казино, которое предоставляет широкий выбор игр и
+									специализируется на ставках в криптовалюте.
+								</p>
+							</div>
+						</div>
+						<div class="faq__item" itemprop="mainEntity" itemscope itemtype="http://schema.org/Question">
+							<h3 class="faq__label" itemprop="name">Нужно ли регистрировать дополнительный аккаунт для мобильной
+								версии?
+							</h3>
+							<div class="faq__body" itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer">
+								<p itemprop="text">Нет, дополнительная регистрация для мобильной версии не требуется.
+								</p>
+							</div>
+						</div>
+						<div class="faq__item" itemprop="mainEntity" itemscope itemtype="http://schema.org/Question">
+							<h3 class="faq__label" itemprop="name">Предоставляет ли Криптобосс мобильное приложение?
+							</h3>
+							<div class="faq__body" itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer">
+								<p itemprop="text">На текущий момент казино не предоставляет мобильного приложения, но мобильная версия
+									сайта работает без сбоев.
+								</p>
+							</div>
+						</div>
+						<div class="faq__item" itemprop="mainEntity" itemscope itemtype="http://schema.org/Question">
+							<h3 class="faq__label" itemprop="name">Какие программные обеспечения использует Криптобосс?
+							</h3>
+							<div class="faq__body" itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer">
+								<p itemprop="text">Казино использует множество популярных провайдеров, таких как NetEnt, Playtech,
+									Pragmatic Play, Evolution Gaming, и многих других.
+								</p>
+							</div>
+						</div>
+						<div class="faq__item" itemprop="mainEntity" itemscope itemtype="http://schema.org/Question">
+							<h3 class="faq__label" itemprop="name">Сколько игр доступно в Криптобосс?
+							</h3>
+							<div class="faq__body" itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer">
+								<p itemprop="text">Всего доступно более 7000 игр, включая игровые автоматы, столы для лайв-казино и
+									многие другие.
+								</p>
+							</div>
+						</div>
+						<div class="faq__item" itemprop="mainEntity" itemscope itemtype="http://schema.org/Question">
+							<h3 class="faq__label" itemprop="name">Есть ли игры с джекпотом?
+							</h3>
+							<div class="faq__body" itemscope itemprop="acceptedAnswer" itemtype="http://schema.org/Answer">
+								<p itemprop="text">Да, например, есть игра Divine Fortune от NetEnt, и в будущем планируется добавление
+									других.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="reviews">
+						<h2>Отзывы</h2>
+						<div class="reviews__item" itemscope itemtype="https://schema.org/Review">
+							<div class="reviews__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<p itemprop="name">Ckynar</p>
+							</div>
+							<div class="reviews__body" itemprop="reviewBody">
+								<p>Знаете, бомба, а не казино! Огромные выплаты до 300к евро, РТП зашкаливает. Регулярные акции,
+									отзывчивая техподдержка. Взял жирные бонусы на первые три депа. Минусы: нет мобильного приложения. Но
+									в остальном топ!
+
+								</p>
+							</div>
+							<div class="reviews__org" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+								<meta itemprop="name" content="Отзыв о Cryptoboss">
+							</div>
+						</div>
+						<div class="reviews__item" itemscope itemtype="https://schema.org/Review">
+							<div class="reviews__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<p itemprop="name">Vktarinat</p>
+							</div>
+							<div class="reviews__body" itemprop="reviewBody">
+								<p>Наткнулся на криптобосс, когда искал казино с хорошими бонусами. И нашел! Велком пак тут
+									действительно жирный, бонусы на депозиты большие. Приложения пока нет, но рекомендую попробовать.
+									Выплаты хорошие.
+
+								</p>
+							</div>
+							<div class="reviews__org" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+								<meta itemprop="name" content="Отзыв о Cryptoboss">
+							</div>
+						</div>
+						<div class="reviews__item" itemscope itemtype="https://schema.org/Review">
+							<div class="reviews__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<p itemprop="name">RODESBEANIE</p>
+							</div>
+							<div class="reviews__body" itemprop="reviewBody">
+								<p>Очень удобное казино как для игры так и вывода. Последнее для меня стало решающим. На первых порах
+									были непонятки, как пополнять, ведь фигурирует как криптовалютой, но в итоге оказалось все выполнимо и
+									по факту процесс депозит– вывод не очень отличается от таких же в простом казино. Но то что вывод в
+									один свист, это прям то, что нужно. Ассортимент хороший, слоты с выплатами, так что для постоянной
+									игры самое, то.
+
+								</p>
+							</div>
+							<div class="reviews__org" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+								<meta itemprop="name" content="Отзыв о Cryptoboss">
+							</div>
+						</div>
+						<div class="reviews__item" itemscope itemtype="https://schema.org/Review">
+							<div class="reviews__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<p itemprop="name">canaceVix</p>
+							</div>
+							<div class="reviews__body" itemprop="reviewBody">
+								<p>Cryptoboss хорошо уже тем, что не исчезает из поля зрения, доступ есть постоянно, без приключений
+									захожу. Хороший список провайдеров, слоты также радуют. Так что как для стабильной игры, без лажи,
+									отличный вариант. И что решающее для меня моментальные выводы, когда нужно мне, а не когда удобно
+									сервису.
+
+								</p>
+							</div>
+							<div class="reviews__org" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+								<meta itemprop="name" content="Отзыв о Cryptoboss">
+							</div>
+						</div>
+						<div class="reviews__item" itemscope itemtype="https://schema.org/Review">
+							<div class="reviews__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<p itemprop="name">богатырев </p>
+							</div>
+							<div class="reviews__body" itemprop="reviewBody">
+								<p>Играю у них изредка. Впечатлен выплатами, но каждый раз разные зеркала сайта - муторно. Впрочем,
+									когда играю, выигрыши радуют.
+
+								</p>
+							</div>
+							<div class="reviews__org" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+								<meta itemprop="name" content="Отзыв о Cryptoboss">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<footer>
+			<div class="container">
+				<img src="content/img/opl.png" />
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
